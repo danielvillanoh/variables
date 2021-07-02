@@ -50,5 +50,4 @@ lyrics = (
 #
 # WRITE CODE BELOW
 print(lyrics)
-print()
-print()
+
