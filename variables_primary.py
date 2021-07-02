@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Daniel Villano-Herrera
+# date: July 02, 2021
 #
 # description: <fill in>
 
@@ -24,6 +24,14 @@ example_name = 'elia'
 print('EXAMPLE: my name is', example_name)
 
 # WRITE CODE BELOW
+name = 'Daniel'
+print('My name is', name)
+
+birthday = '07/03/2001'
+print('My birthday is', birthday)
+
+favorite_animal = 'Cat'
+print('My favorite animal is', favorite_animal)
 
 
 
@@ -45,6 +53,14 @@ print('EXAMPLE: my name is', example_name)
 #   5) Print each variable, describing the value you print.
 
 # WRITE CODE BELOW
+favorite_number = 1738
+birthday_day = 3
+negative_number = -2
+float_number = 4.61
+print('My favorite number is', favorite_number)
+print('The day of the month of my birthday is', birthday_day)
+print('The negative number I chose is', negative_number)
+print('The float number I chose is', float_number)
 
 
 
@@ -68,7 +84,12 @@ print('EXAMPLE: my new name is', example_name)
 
 # WRITE CODE BELOW
 
-
+name = 'Raymond'
+print('My new name is', name)
+birthday_day = 4
+print('I think it would be best to have my birthday on the', birthday_day)
+favorite_number = 7
+print('I think the unlucky number is', favorite_number)
 
 # 1.4 | Operations
 #
@@ -95,3 +116,21 @@ example_sum = 11 + 21
 print('EXAMPLE: the sum of 11 and 21 is', example_sum)
 
 # WRITE CODE BELOW
+
+sum_two_numbers = 53 + 21
+print('The sum of 53 and 21 is', sum_two_numbers)
+product_three_numbers = 45 * 32 * 21
+print('The product of 45, 32 and 21 is', product_three_numbers)
+division_sum_and_product = sum_two_numbers/product_three_numbers
+print('The division of the sum and product above is', division_sum_and_product)
+concatenation_animal_and_name = name + favorite_animal
+print('My full name is', concatenation_animal_and_name)
+duplicates = "LOL" * birthday_day
+print(duplicates)
+difference_with_unlucky_number = 23 - favorite_number
+print('Here\'s the difference between the number and the unlucky number', difference_with_unlucky_number)
+lucky = 12
+lucky_squared = lucky ** lucky
+print('Here\'s the lucky number', lucky)
+print('Here\'s the lucky squared by itself', lucky_squared)
+
