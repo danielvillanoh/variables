@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Daniel Villano-Herrera
+# date: 07/02/2021
 #
 # description: <fill in>
 
@@ -32,7 +32,14 @@ example_verse = (
 )
 
 # WRITE CODE BELOW
-
+lyrics = (
+    'Because I\'m bad, I\'m bad come on (Really really bad)\n' +
+    'You know I\'m bad, I\'m bad you know it (Really really bad)\n' +
+    'You know I\'m bad, I\'m bad come on, you know (Really really bad)\n' +
+    'And the whole world has to answer right now\n' +
+    'Just to tell you once again\n' +
+    'Who\'s bad?'
+)
 
 # 3.2
 # Print
@@ -42,4 +49,6 @@ example_verse = (
 #   Remember you can re-use variables (like the chorus) if it's the same.
 #
 # WRITE CODE BELOW
-
+print(lyrics)
+print()
+print()

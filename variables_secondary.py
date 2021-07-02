@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Daniel Villano-Herrera
+# date: 07/02/2021
 #
 # description: <fill in>
 
@@ -45,4 +45,13 @@
 #       - Addition with itself and an equation
 #           - Example Equation: ((10 - 2) * (4 + 3) - 1) * 15
 #
+x = 32
+x += 73
+x -= 54
+x *= 42
+x //= 6
+x += ((23 - 42) * 2 // 3 - 2)
+print(x)
+
+
 
